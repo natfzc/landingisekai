@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Isekai</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center background">
+        <div class="row">
+            <div class="col-md-6 text-white">
+                <h1 class="animated-text">¡Enterate de lo más nuevo!</h1>
+                <h2>Nuevas figuras y más<span class="highlight"></span></h2>
+                <p>¡APRESURATE PARA DESCUBRIRLO ANTES QUE TODOS!</p>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h3 class="card-title text-center special-title">BAJA EL CATÁLOGO ESPECIAL</h3>
+                    <p class="text-center gratis-text">GRATIS</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="protection">¿Qué te gustaría recibir?</label>
+                            <select class="form-control" id="protection" required>
+                                <option value="" disabled selected>Seleccionar</option>
+                                <option value="casa">Catálogo</option>
+                                <option value="negocio">Cupón de descuento</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block">RECIBIR</button>
+                        <p class="text-center mt-3"><small>Tus datos están seguros <span class="icon-lock"></span></small></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

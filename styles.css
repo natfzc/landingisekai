@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background: url(./imgs/IMG_20240623_201809.jpg) no-repeat center center/cover;
+}
+
+.highlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #b4b4b4e1;
+    color: rgb(255, 255, 255);
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #ff00ea;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #8b0056;
+}
+
+.icon-lock::before {
+    content: "\1F512";
+}
+
+.animated-text {
+    animation: fadeIn 2s ease-in-out infinite alternate;
+    font-size: 3rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.gratis-text {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #8b0056;
+}
+
+.special-title {
+    color: #ffffff;
+}
